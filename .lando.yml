@@ -1,0 +1,10 @@
+name: dram
+recipe: drupal8
+config:
+  php: "7.4"
+  composer_version: "1.9.0"
+  via: nginx
+  webroot: web
+  database: mariadb
+  drush: ^9
+  xdebug: false
